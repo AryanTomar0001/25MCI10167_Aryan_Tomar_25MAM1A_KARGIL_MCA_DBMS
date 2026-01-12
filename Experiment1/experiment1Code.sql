@@ -49,7 +49,7 @@ values
 update Employee set Dept_id=4 where Emp_id=103;
 
 --delete Employee Data 
--- but the problem is i assign project to employee first i need to delete or update project .Then i am delete employee
+-- But the problem is, I assign project to employee .First, i need to delete or update project .Then I  delete employee
 delete from Project where Proj_Assign_Emp=105;
 delete from Employee where Emp_id=105;
 
@@ -59,12 +59,12 @@ select*from Employee;
 
 select*from Project;
 
--- create manager user
-create role CEO login password 'CEO';
-grant select on Employee ,Department ,Project to CEO;
-grant create on schema public to CEO;
-revoke select on Department from CEO;
-revoke create on schema public from CEO;
+
+create role HOD login password 'HOD';
+grant select on Employee,Department,Project to HOD;
+grant create on schema public to HOD;
+revoke select on Department from HOD;
+revoke create on schema public from HOD;
 
 
 --alter table Employee Address
