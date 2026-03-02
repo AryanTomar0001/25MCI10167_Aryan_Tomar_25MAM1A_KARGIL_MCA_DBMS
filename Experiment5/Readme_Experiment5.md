@@ -95,11 +95,8 @@ insert into employee_cursor (emp_name, experience, salary) values
 
 ```sql
 select * from employee_cursor;
-
-<img width="1028" height="372" alt="image" src="https://github.com/user-attachments/assets/7746f163-6649-4be0-9b22-795b8aaf7344" />
-
 ```
-
+<img width="1028" height="372" alt="image" src="https://github.com/user-attachments/assets/7746f163-6649-4be0-9b22-795b8aaf7344" />
 ---
 
 ## ✅ **Step 5: Implementing a Simple Forward-Only Cursor**
@@ -125,6 +122,9 @@ begin
 end $$;
 
 ```
+
+<img width="892" height="418" alt="image" src="https://github.com/user-attachments/assets/aa9148a0-25d0-422c-8242-366b927281ad" />
+
 ---
 ## ✅ **Step 6: Complex Row-by-Row Manipulation**
 
@@ -165,6 +165,7 @@ end $$;
 <img width="1034" height="458" alt="image" src="https://github.com/user-attachments/assets/39d70e71-6a70-4952-ba65-3156b467cc4b" />
 
 ```
+<img width="1034" height="458" alt="image" src="https://github.com/user-attachments/assets/53bb43db-6c2c-4e16-8832-97cd044fc257" />
 
 ---
 
@@ -189,9 +190,9 @@ begin
 
     close emp_cursor;
 end $$;
-<img width="839" height="231" alt="image" src="https://github.com/user-attachments/assets/456f8c5d-ec45-4f60-a48b-b7cc5b267b30" />
 
 ```
+<img width="839" height="231" alt="image" src="https://github.com/user-attachments/assets/afc0f7bf-4fda-4e7a-88ab-4389078acf82" />
 
 ---
 
